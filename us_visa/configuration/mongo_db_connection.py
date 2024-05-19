@@ -21,7 +21,7 @@ class MongoDBClient:
     client = None
 
     def __init__(self, database_name=DATABASE_NAME) -> None:
-        try:  
+        try:
             if MongoDBClient.client is None:
                 mongo_db_url = os.getenv(MONGODB_URL_KEY)
                 if mongo_db_url is None:
@@ -33,4 +33,3 @@ class MongoDBClient:
             logging.info("MongoDB connection succesfull")
         except Exception as e:
             raise USvisaException(e,sys)
-
