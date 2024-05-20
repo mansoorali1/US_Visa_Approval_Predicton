@@ -43,7 +43,7 @@ class USvisaModel:
             transformed_feature = self.preprocessing_object.transform(dataframe)
 
             logging.info("Used the trained model to get predictions")
-            return self.trained_model_object.predict(transformed_feature)
+            return self.trained_model_object.predict(transformed_feature)  
 
         except Exception as e:
             raise USvisaException(e, sys) from e
