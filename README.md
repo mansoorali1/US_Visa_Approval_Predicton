@@ -37,4 +37,7 @@ This project provides an end-to-end MLOps solution for predicting US visa approv
   <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css" width="60" height="60"/>
   </a>
+  <a href="https://aws.amazon.com/s3/" target="_blank" rel="noreferrer">
+    <img src="https://d1.awsstatic.com/product-marketing/S3/s3-logo.5d8a9a5b5f023c5dd0b7c9c4a70f4a5a35c14b03.png" alt="aws s3" width="40" height="40"/>
+  </a>
 </div>
