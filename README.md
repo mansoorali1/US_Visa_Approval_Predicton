@@ -9,7 +9,7 @@ This project provides an end-to-end MLOps solution for predicting US visa approv
 5. Deployment
 
 # Languages & Tools
-<div align="center">
+<div align="">
   <a href="https://www.python.org" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
   </a>
