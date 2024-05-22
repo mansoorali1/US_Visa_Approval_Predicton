@@ -9,7 +9,7 @@ This project provides an end-to-end MLOps solution for predicting US visa approv
 5. Deployment
 
 # Languages & Tools
-<div align="">
+<div align="center" style="display: flex; justify-content: center; gap: 20px;">
   <a href="https://www.python.org" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="60" height="60"/>
   </a>
@@ -20,7 +20,7 @@ This project provides an end-to-end MLOps solution for predicting US visa approv
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="vscode" width="60" height="60"/>
   </a>
   <a href="https://aws.amazon.com/s3/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws s3" width="60" height="60"/>
+    <img src="https://d1.awsstatic.com/product-marketing/S3/s3-logo.5d8a9a5b5f023c5dd0b7c9c4a70f4a5a35c14b03.png" alt="aws s3" width="60" height="60"/>
   </a>
   <a href="https://www.docker.com/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="60" height="60"/>
