@@ -38,3 +38,102 @@ This project provides an end-to-end MLOps solution for predicting US visa approv
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css" width="60" height="60"/>
   </a>
 </div>
+
+# Directory Structure
+
+"""
+C:.
+|   .dockerignore
+|   .gitignore
+|   app.py
+|   demo.py
+|   demo2.py
+|   Dockerfile
+|   LICENSE
+|   README.md
+|   requirements.txt
+|   setup.py
+|   template.py
+|
++---.github
+|   \---workflows
+|           aws.yaml
+|
+|
++---config
+|       model.yaml
+|       schema.yaml
+|
++---flowcharts
+|
++---notebook
+|   |   1_EDA_US_visa.ipynb
+|   |   2_Feature_Engineering_and_Model_Training.ipynb
+|   |   data_drift_demo_evidently.ipynb
+|   |   mongoDB_demo.ipynb
+|   |   prediction_trial.ipynb
+|   |   trial_aws_connection.ipynb
+|   |   trial_mongo.ipynb
+|   |   Visadataset.csv
+|   |
++---static
+|   \---css
+|           style.css
+|
++---templates
+|       usvisa.html
+|
++---us_visa
+|   |   __init__.py
+|   |
+|   +---cloud_storage
+|   |   |   aws_storage.py
+|   |   |   __init__.py
+|   |
+|   +---components
+|   |   |   data_ingestion.py
+|   |   |   data_transformation.py
+|   |   |   data_validation.py
+|   |   |   model_evaluation.py
+|   |   |   model_pusher.py
+|   |   |   model_trainer.py
+|   |   |   __init__.py
+|   |   
+|   |
+|   +---configuration
+|   |   |   aws_connection.py
+|   |   |   mongo_db_connection.py
+|   |   |   __init__.py
+|   |
+|   +---constants
+|   |   |   __init__.py
+|   |
+|   +---data_access
+|   |   |   usvisa_data.py
+|   |   |   __init__.py
+|   |
+|   +---entity
+|   |   |   artifact_entity.py
+|   |   |   config_entity.py
+|   |   |   estimator.py
+|   |   |   s3_estimator.py
+|   |   |   __init__.py
+|   |
+|   +---exception
+|   |   |   __init__.py
+|   |
+|   +---logger
+|   |   |   __init__.py
+|   |
+|   +---pipeline
+|   |   |   prediction_pipeline.py
+|   |   |   training_pipeline.py
+|   |   |   __init__.py
+|   |
+    +---utils
+        |   main_utils.py
+        |   __init__.py
+
+
+
+"""
