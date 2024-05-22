@@ -41,7 +41,7 @@ This project provides an end-to-end MLOps solution for predicting US visa approv
 
 # Directory Structure
 
-"""
+```
 C:.
 |   .dockerignore
 |   .gitignore
@@ -133,7 +133,4 @@ C:.
     +---utils
         |   main_utils.py
         |   __init__.py
-
-
-
-"""
+```
