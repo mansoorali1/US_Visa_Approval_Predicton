@@ -59,7 +59,6 @@ C:.
 |   \---workflows
 |           aws.yaml
 |
-|
 +---config
 |       model.yaml
 |       schema.yaml
