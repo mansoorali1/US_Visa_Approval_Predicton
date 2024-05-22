@@ -1,14 +1,14 @@
 # US Visa Approval Predicton
 This project provides an end-to-end MLOps solution for predicting US visa approvals. Given specific input features such as education level, job experience, wage and etc., the model predicts whether a visa will be approved or denied. The solution is fully hosted on AWS, leveraging various AWS services for seamless deployment and scalability.
 
-# Architecture
+## Architecture
 1. Data Ingestion
 2. Data Preprocessing
 3. Model Training
 4. Model Evaluation
 5. Deployment
 
-# Languages & Tools
+## Languages & Tools
 <div align="">
   <a href="https://www.python.org" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="60" height="60"/>
@@ -39,7 +39,7 @@ This project provides an end-to-end MLOps solution for predicting US visa approv
   </a>
 </div>
 
-# Directory Structure
+## Directory Structure
 
 ```
 C:.
@@ -133,3 +133,5 @@ C:.
         |   main_utils.py
         |   __init__.py
 ```
+## Data
+https://www.kaggle.com/datasets/moro23/easyvisa-dataset?resource=download
