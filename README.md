@@ -135,3 +135,5 @@ C:.
 ```
 ## Data
 https://www.kaggle.com/datasets/moro23/easyvisa-dataset?resource=download
+## Output
+![US_Visa_Prediction_App](https://github.com/mansoorali1/US_Visa_Approval_Predicton/assets/73877240/9ce44d98-6038-476c-a57b-15b2354f0b2f)
