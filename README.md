@@ -15,7 +15,7 @@ This project provides an end-to-end MLOps solution for predicting US visa approv
 
 **3. Model Training:** Various models are trained on the preprocessed data. The models evaluated include K-Nearest Neighbors (KNN) and Random Forest
 
-**4. Model Evaluation:** Among the different models, KNN and Random Forest were the top performers. The KNN model has an accuracy of 96.66%
+**4. Model Evaluation:** Among the different models, KNN, Random Forest and XGBoost were the top performers.
 
 **5. Deployment:** In the deployment phase, the selected model is uploaded to an AWS S3 bucket. FastAPI is used to build the API. A containerized application is created using Github Action, and the Docker image is pushed to Amazon Elastic Container Registry (ECR). This image is then pulled into an EC2 instance, which is connected to GitHub via a self-hosted runner. Whenever code changes or new code is pushed to GitHub, the CI/CD pipeline is triggered, ensuring that the model is continuously integrated and deployed on AWS
 
