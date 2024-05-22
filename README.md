@@ -2,11 +2,11 @@
 This project provides an end-to-end MLOps solution for predicting US visa approvals. Given specific input features such as education level, job experience, wage and etc., the model predicts whether a visa will be approved or denied. The solution is fully hosted on AWS, leveraging various AWS services for seamless deployment and scalability.
 
 ## Architecture
-1. Data Ingestion
-2. Data Preprocessing
-3. Model Training
-4. Model Evaluation
-5. Deployment
+**1. Data Ingestion:**  The data is stored in a MongoDB database and is fetched from there for processing
+**2. Data Preprocessing:** Data cleaning and transformation are performed to prepare the data for model training
+**3. Model Training:** Various models are trained on the preprocessed data. The models evaluated include K-Nearest Neighbors (KNN) and Random Forest
+**4. Model Evaluation:** Among the different models, KNN and Random Forest were the top performers. The KNN model has an accuracy of 96.66%
+**5. Deployment:** In the deployment phase, the selected model is uploaded to an AWS S3 bucket. FastAPI is used to build the API. A containerized application is created using Github Action, and the Docker image is pushed to Amazon Elastic Container Registry (ECR). This image is then pulled into an EC2 instance, which is connected to GitHub via a self-hosted runner. Whenever code changes or new code is pushed to GitHub, the CI/CD pipeline is triggered, ensuring that the model is continuously integrated and deployed on AWS
 
 ## Languages & Tools
 <div align="">
