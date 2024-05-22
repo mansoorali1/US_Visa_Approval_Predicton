@@ -31,6 +31,8 @@ This project provides an end-to-end MLOps solution for predicting US visa approv
   <a href="https://github.com/features/actions" target="_blank" rel="noreferrer">
     <img src="https://avatars.githubusercontent.com/u/44036562?s=200&v=4" alt="github actions" width="60" height="60"/>
   </a>
+  ![1_ThIofZs6uOtgMsiMP2rWGg](https://github.com/mansoorali1/US_Visa_Approval_Predicton/assets/73877240/cb106c37-d442-4471-98bc-95b0acc5d0d8)
+
   <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html" width="60" height="60"/>
   </a>
