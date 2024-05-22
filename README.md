@@ -2,11 +2,11 @@
 This project provides an end-to-end MLOps solution for predicting US visa approvals. Given specific input features such as education level, job experience, wage and etc., the model predicts whether a visa will be approved or denied. The solution is fully hosted on AWS, leveraging various AWS services for seamless deployment and scalability.
 
 ## Table of Contents
-- [Architecture](#-architecture)
-- [Languages & Tools](#-languages--tools)
-- [Directory Structure](#-directory-structure)
-- [Data](#-data)
-- [Output](#-output)
+- [Architecture](#-Architecture)
+- [Languages & Tools](#-Languages--Tools)
+- [Directory Structure](#-Directory-Structure)
+- [Data](#-Data)
+- [Output](#-Output)
   
 ## Architecture
 **1. Data Ingestion:**  The data is stored in a MongoDB database and is fetched from there for processing
