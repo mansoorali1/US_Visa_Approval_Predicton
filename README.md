@@ -9,7 +9,7 @@ This project provides an end-to-end MLOps solution for predicting US visa approv
 - [Output](#output)
   
 ## Architecture
-**1. Data Ingestion:**  The data is stored in a MongoDB database and is fetched from there for processing .
+**1. Data Ingestion:**  The data is stored in a MongoDB database and is fetched from there for processing.
 
 **2. Data Preprocessing:** Data cleaning and transformation are performed to prepare the data for model training.
 
