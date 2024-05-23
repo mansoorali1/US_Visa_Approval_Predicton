@@ -13,7 +13,7 @@ This project provides an end-to-end MLOps solution for predicting US visa approv
 
 **2. Data Preprocessing:** Data cleaning and transformation are performed to prepare the data for model training
 
-**3. Model Training:** Various models are trained on the preprocessed data. The models evaluated include K-Nearest Neighbors (KNN) and Random Forest
+**3. Model Training:** Various models are trained on the preprocessed data such as KNN, Random Forest, XGBoost, Decision Tree, Catboost and few others
 
 **4. Model Evaluation:** Among the different models, KNN, Random Forest and XGBoost were the top performers.
 
